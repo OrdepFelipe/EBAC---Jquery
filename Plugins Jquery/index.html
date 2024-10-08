@@ -21,7 +21,7 @@
 
   <body>
     <header>
-      <div class="container">
+      <div class="container container-flex">
         <h1>EBAC Motors</h1>
         <div class="menu-hamburguer">
           <span></span>
@@ -53,6 +53,66 @@
       <img src="images/slide2.png" alt="" />
       <img src="images/slide3.png" alt="" />
     </div>
+    <section id="sobre-a-loja">
+      <div class="container container-flex">
+        <img src="images/loja.jpg" alt="" />
+        <div>
+          <h2>Sobre a EBAC Motors</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
+            obcaecati expedita adipisci eaque facilis, in delectus, cum,
+            pariatur rerum aliquid itaque error dicta. Dolorem natus repudiandae
+            esse. Quae, deleniti vitae!«
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
+            obcaecati expedita adipisci eaque facilis, in delectus, cum,
+            pariatur rerum aliquid itaque error dicta. Dolorem natus repudiandae
+            esse. Quae, deleniti vitae!«
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <h2>Em destaque</h2>
+
+        <ul class="container-flex lista-veiculos">
+          <li>
+            <img src="images/moto-bmw.png" alt="" />
+            <h3>Moto</h3>
+            <p>lorem</p>
+          </li>
+          <li class="item-central">
+            <img src="images/fusca.png" alt="" />
+            <h3>Fusca</h3>
+            <p>lorem</p>
+          </li>
+          <li>
+            <img src="images/carro-bmw.png" alt="" />
+            <h3>Carro</h3>
+            <p>lorem</p>
+          </li>
+          <li>
+            <img src="images/moto-bmw.png" alt="" />
+            <h3>Moto</h3>
+            <p>lorem</p>
+          </li>
+          <li class="item-central">
+            <img src="images/fusca.png" alt="" />
+            <h3>Fusca</h3>
+            <p>lorem</p>
+          </li>
+          <li>
+            <img src="images/carro-bmw.png" alt="" />
+            <h3>Carro</h3>
+            <p>lorem</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!--SCRIPS-->
     <script
       type="text/javascript"
       src="https://code.jquery.com/jquery-1.11.0.min.js"
@@ -70,6 +130,10 @@
         $("#carousel-imagens").slick({
           autoplay: true,
           arrows: false,
+        });
+
+        $(".menu-hamburguer").click(function () {
+          $("nav").slideToggle();
         });
       });
     </script>

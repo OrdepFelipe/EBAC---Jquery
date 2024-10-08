@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 .container {
     max-width: 1024px;
     width: 100%;
@@ -53,4 +57,43 @@ nav li a {
     background-color: #fff;
     display: block;
     margin-bottom: 4px;
+}
+
+.container-flex{
+    display: flex;
+}
+
+#sobre-a-loja img{
+    max-width: 400px;
+    margin-right: 24px;
+}
+
+section{
+    padding: 48px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+.lista-veiculos{
+    flex-wrap: wrap;
+}
+
+.lista-veiculos li{
+    list-style: none;
+    max-width: 30%;
+    margin-bottom: 16px;
+}
+
+.lista-veiculos img{
+    max-width: 100%;
+}
+
+.lista-veiculos h3{
+    margin: 16px 0;
+}
+
+.item-central{
+    margin: 0 5%;
 }
